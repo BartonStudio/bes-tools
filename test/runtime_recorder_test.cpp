@@ -1,4 +1,4 @@
-#include "runtime_recorder.h"
+#include "runtime_recorder/runtime_recorder.h"
 #include <unistd.h>
 
 void sleep_for_seconds(int time)
@@ -20,4 +20,6 @@ int main(void)
     uint32_t a = 1000000000;
     while(a--);
     test->set_checkpoint(3);
+
+    return 0;
 }

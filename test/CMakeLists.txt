@@ -1,3 +1,2 @@
 add_executable(runtime_recorder_test runtime_recorder_test.cpp)
-
 target_link_libraries(runtime_recorder_test utility)

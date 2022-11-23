@@ -1,3 +1,6 @@
+#ifndef RUNTIME_RECORDER_H
+#define RUNTIME_RECORDER_H
+
 #include <iostream>
 #include <sys/time.h>
 #include <functional>
@@ -23,3 +26,5 @@ class runtime_recorder
         runtime_recorder(const runtime_recorder& runtime_recorder) = delete;
         runtime_recorder operator=(runtime_recorder& runtime_recorder) = delete;
 };
+
+#endif //RUNTIME_RECORDER_H
